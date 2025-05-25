@@ -44,6 +44,9 @@ formEl.addEventListener('submit', async e => {
           message: 'The field cannot be empty!',
           position: 'topRight'
         });
+
+        hideLoadMoreButton();
+        
         return;
     }
 
